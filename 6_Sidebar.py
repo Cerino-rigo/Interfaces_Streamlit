@@ -13,6 +13,8 @@ estados = df['State'].dropna().unique().tolist()
 
 ###Sidebar
 st.sidebar.title("Controles y Filtros")
+st.sidebar.image('https://images.pexels.com/photos/34375368/pexels-photo-34375368.jpeg')
+st.logo('https://images.pexels.com/photos/34375368/pexels-photo-34375368.jpeg')
 
 #Selector de área
 area = st.sidebar.selectbox("Selecciona área:", ["Todas"] + areas)

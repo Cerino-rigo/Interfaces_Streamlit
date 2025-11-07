@@ -54,11 +54,11 @@ if 'grafica_index' not in st.session_state:
     st.session_state.grafica_index = 0
 
 # Header principal
-st.markdown('<h1 class="main-header">📊 Dashboard de Análisis por Región</h1>', unsafe_allow_html=True)
+st.markdown('<h1 class="main-header">Dashboard de Análisis por Región</h1>', unsafe_allow_html=True)
 
 # CONTENEDOR 1: Métricas Generales con columnas internas
 with st.container(border=True):
-    st.subheader("📈 Resumen General del Dataset")
+    st.subheader("Resumen General del Dataset")
     
     col1, col2, col3, col4 = st.columns(4)
     
@@ -76,7 +76,7 @@ with st.container(border=True):
 
 # CONTENEDOR 2: Carrusel de Gráficas con columnas
 with st.container(border=True):
-    st.subheader("🎯 Análisis por Grupo - Navegación de Gráficas")
+    st.subheader("Análisis por Grupo - Navegación de Gráficas")
     
     col_left, col_graph, col_right = st.columns([1, 6, 1])
     
@@ -117,7 +117,7 @@ with st.container(border=True):
         st.pyplot(fig)
         
         # Info adicional
-        st.info(f"📊 Mostrando gráfica {st.session_state.grafica_index + 1} de {len(grupos)}: **{grupo_actual}**")
+        st.info(f"Mostrando gráfica {st.session_state.grafica_index + 1} de {len(grupos)}: **{grupo_actual}**")
     
     with col_right:
         st.write("")
@@ -128,7 +128,7 @@ with st.container(border=True):
 
 # CONTENEDOR 3: Tabla de datos con filtros en columnas
 with st.container(border=True):
-    st.subheader("📋 Exploración de Datos")
+    st.subheader("Exploración de Datos")
     
     col_filters, col_table = st.columns([1, 3])
     
@@ -192,4 +192,4 @@ with st.container(border=True):
 
 # Footer
 st.markdown("---")
-st.caption("📊 Dashboard creado con Streamlit - Análisis de porcentaje no completado por región")
+st.caption("Dashboard creado con Streamlit - Análisis de porcentaje no completado por región")

@@ -1,0 +1,20 @@
+#[theme]
+#primaryColor="#61a4aa"
+#backgroundColor="#c6c9da"
+#secondaryBackgroundColor="#252024"
+#textColor="#2e47dc"
+
+[theme.sidebar]
+
+# Primary accent color.
+# primaryColor =
+
+# Background color of the app.
+# backgroundColor =
+
+# Background color used for most interactive widgets.
+# secondaryBackgroundColor =
+
+# Color used for almost all text.
+# textColor =
+
