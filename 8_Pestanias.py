@@ -14,7 +14,7 @@ df = df.iloc[:-2].copy()
 df['Percent complete'] = pd.to_numeric(df['Percent complete'], errors='coerce')
 
 def centered_title(text):
-    st.markdown(f"<h1 style='text-aling: center;'>{text}</h1>", unsafe_allow_html=True)
+    st.markdown(f"<h1 style='text-align: center;'>{text}</h1>", unsafe_allow_html=True)
 
 centered_title("Ejemplo de pestañas con datos reales de proyectos")
 
