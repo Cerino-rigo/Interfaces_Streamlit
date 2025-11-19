@@ -28,14 +28,8 @@ percentage_page = st.Page(
 mapa_page = st.Page(
     "Paginas/Mapa.py",
     title="Mapas",
-    icon=":material/mapa_search:"
+    icon=":material/map_search:"
 )
-
-#Crear navegación 
-
-#pg = st.navigation([home_page, projects_page, percentage_page])
-
-
 
 # Crear navegación con secciones
 #pg = st.navigation([home_page,projects_page, percentage_page])
